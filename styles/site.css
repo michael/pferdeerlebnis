@@ -1,0 +1,173 @@
+/*
+Typography / Basics
+---------------------------------------------*/
+
+ /**
+ * @license
+ * MyFonts Webfont Build ID 2723293, 2014-01-13T08:20:14-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir 85 Heavy by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2723293
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/*
+General styles
+---------------------------------------------*/
+
+
+body {
+  color: #444;
+  font-family: 'Arvo', serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 30px;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.darker {
+  /*background: #f6f6f6;*/
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  /*color: #18cfca;*/
+}
+
+a:hover {
+  text-decoration: none;
+/*  color: #28fff7;*/
+}
+
+
+
+/*
+Header
+---------------------------------------------*/
+
+
+.header .header-inner {
+  overflow: hidden;
+  line-height: 40px;
+}
+
+.header p {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.header .header-inner .upject-logo {
+  /*color: white;*/
+  width: 211px;
+  display: block;
+  margin: 0 auto;
+}
+
+.upject-logo img {
+  width: 211px;
+}
+
+.header .header-inner .menu {
+  float: right;
+}
+
+
+.header h1 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+/* Mission */
+
+.row.heading {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.row.heading .feature {
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.row.heading p {
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.row h3 {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.row p {
+
+  font-size: 16px;
+  /*color: rgba(255,255,255,0.6);*/
+}
+
+img {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+
+.row p.attribution {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+/*
+Tip 
+---------------------------------------------*/
+
+.section.tip p {
+  font-style: italic;
+  border: none;
+}
+
+.section.tip.teaser p {
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+/*
+Contact 
+---------------------------------------------*/
+
+.section.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+p.supertitle {
+  font-size: 24px;
+  font-style: italic;
+}
+
+p.subtitle {
+  font-size: 20px;
+  color: #666;
+}
